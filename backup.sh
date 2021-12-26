@@ -19,7 +19,7 @@
 #neovim
 function bk_neovim(){
   echo -e "\nCopiando Configuracion de neovim";
-	cp -rf ~/.config/nvim/ .config/nvim
+	cp -rfT ~/.config/nvim/ .config/nvim
 
 }
 
@@ -39,27 +39,27 @@ function bk_bashrc(){
 #Qtiles
 function bk_qtile(){
 	echo -e "\nCopiando Configuracion de Qtiles";
-	cp -rf ~/.config/qtile/ .config/qtile
+	cp -rfT ~/.config/qtile/ .config/qtile
   echo -e "\nCopiando Configuracion de picom";
-	cp -rf ~/.config/picom/ .config/picom
+	cp -rfT ~/.config/picom/ .config/picom
 }
 
 #kitty terminal emulator
 function bk_kitty(){
 	echo -e "\nCopiando Configuracion de kitty";
-	cp -rf ~/.config/kitty/ .config/kitty
+	cp -rfT ~/.config/kitty/ .config/kitty
 }
 
 #Alacritty terminal emulator
 function bk_alacritty(){
 	echo -e "\nCopiando Configuracion de alacritty";
-	cp -rf ~/.config/alacritty/ .config/alacritty
+	cp -rfT ~/.config/alacritty/ .config/alacritty
 }
 
 #Ranger terminal file explorer
 function bk_ranger(){
 	echo -e "\nCopiando Configuracion de ranger";
-	cp -rf ~/.config/ranger/ .config/ranger
+	cp -rfT ~/.config/ranger/ .config/ranger
 }
 
 #Main function
