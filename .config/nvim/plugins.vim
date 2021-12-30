@@ -1,8 +1,7 @@
 call plug#begin()
 " VIM Monokai
 Plug 'ErichDonGubler/vim-sublime-monokai'
-" Barra de Estado Airline y el theme Tokionight
-Plug 'ghifarit53/tokyonight-vim' "colorscheme
+" Barra de Estado Airline
 Plug 'vim-airline/vim-airline' "barra de estado
 Plug 'vim-airline/vim-airline-themes' "barra de estado
 " CoC VIM
@@ -23,6 +22,9 @@ Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-pathogen'
 " plugin MySql
 Plug 'ajavalera/mysql_plugin'
+" Multi cursor en nvim
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
 call plug#end()
 
  

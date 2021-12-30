@@ -33,7 +33,7 @@ set termguicolors  " Activa true colors en la terminal
 
 "set nerdfont
 set guifont=JetBrainsMono\ Nerd\ Font:h10
-set encoding=UTF-8
+set encoding=utf-8
 
 set clipboard=unnamedplus
 
@@ -49,3 +49,16 @@ let g:php_html_load = 0
 " config de emmet 
 let g:user_emmet_expandabbr_key = '<c-e>'
 let g:use_emmet_complete_tag = 1
+
+" config MultiCursor
+let g:multi_cursor_use_default_mapping=0
+
+" Default mapping
+let g:multi_cursor_start_word_key      = '<C-n>'
+let g:multi_cursor_select_all_word_key = '<A-n>'
+let g:multi_cursor_start_key           = 'g<C-n>'
+let g:multi_cursor_select_all_key      = 'g<A-n>'
+let g:multi_cursor_next_key            = '<C-n>'
+let g:multi_cursor_prev_key            = '<C-p>'
+let g:multi_cursor_skip_key            = '<C-x>'
+let g:multi_cursor_quit_key            = '<Esc>'

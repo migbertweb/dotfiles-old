@@ -11,13 +11,14 @@ from .theme import colors
 
 layout_conf = {
     'border_focus': colors['focus'][0],
-    'border_width': 1,
-    'margin': 4
+    'border_width': 3,
+    'margin': 8,
+    "border_normal": "1c1c1c",
 }
 
 layouts = [
-    layout.Max(),
     layout.MonadTall(**layout_conf),
+    layout.Max(**layout_conf),
     layout.MonadWide(**layout_conf),
     layout.Bsp(**layout_conf),
     layout.Matrix(columns=2, **layout_conf),

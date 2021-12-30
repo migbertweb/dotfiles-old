@@ -73,8 +73,7 @@ primary_widgets = [
 
     powerline('color5', 'grey'),
     icon(bg='color5', fg='light', text='🖬'),
-    widget.Memory(**base(fg='light', bg='color5'), mouse_callbacks = {'Button1':
-        lambda: qtile.cmd_spawn(myTerm + '-e htop')}, padding=3),
+    widget.Memory(**base(fg='light', bg='color5'), format='{MemUsed: .0f} MB ', padding=3),
     
     powerline('color4', 'color5'),
 
@@ -94,7 +93,7 @@ primary_widgets = [
 
     icon(bg="color3", text=''),  # Icon: nf-fa-feed
     
-    widget.Net(**base(bg='color3'), interface='wlo1', format='{down}↓↑{up}'),
+    widget.Net(**base(bg='color3'), interface='wlo1', format='↓{down}↑{up}'),
 
     powerline('color2', 'color3'),
 
