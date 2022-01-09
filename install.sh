@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#dfdfgfdg  w
 # Script to install dotfiles
 # Copyright (C) 2016 4L3J4NDR0 4N4Y4 (energy1011[4t]gmail[d0t]com)
 
@@ -15,6 +15,8 @@
 
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# hola mundo
 
 #Install zsh shell with oh-my-zsh
 function zsh_config(){
