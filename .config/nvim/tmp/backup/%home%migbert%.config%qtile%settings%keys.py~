@@ -1,3 +1,7 @@
+# Antonio Sarosi
+# https://youtube.com/c/antoniosarosi
+# https://github.com/antoniosarosi/dotfiles
+
 # Qtile keybindings
 
 from libqtile.config import Key
@@ -44,11 +48,11 @@ keys = [
         ([mod], "b", lazy.spawn("firefox")),
         # File Explorer
         ([mod], "e", lazy.spawn("pcmanfm")),
-        ([mod], "f", lazy.spawn("kitty ranger")),
+        ([mod], "f", lazy.spawn("alacritty -e ranger")),
         # Terminal
-        ([mod], "Return", lazy.spawn("kitty")),
+        ([mod], "Return", lazy.spawn("alacritty")),
         # NVIM
-        ([mod], "v", lazy.spawn("kitty nvim")),
+        ([mod], "v", lazy.spawn("alacritty -e nvim")),
         # Redshift
         ([mod], "r", lazy.spawn("redshift -O 2400")),
         ([mod, "shift"], "r", lazy.spawn("redshift -x")),

@@ -27,7 +27,7 @@ bell:
   #   - EaseOutExpo
   #   - EaseOutCirc
   #   - Linear
-  animation: EaseOutExpo
+  animation: EaseOutCubic
   # Duration of the visual bell flash in milliseconds. A `duration` of `0` will
   # disable the visual bell animation.
   duration: 100

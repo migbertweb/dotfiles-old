@@ -93,5 +93,5 @@ export PROJECT_HOME=$HOME/www
 # source /usr/bin/virtualenvwrapper.sh
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-export EDITOR="$(if [[ -n $DISPLAY ]]; then echo 'leafpad'; else echo 'nvim'; fi)"
+export EDITOR="$(if [[ -n $DISPLAY ]]; then echo 'kate'; else echo 'nvim'; fi)"
 export VISUAL="nvim"

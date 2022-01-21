@@ -22,7 +22,7 @@ def left_bar(widgets):
 screens = [
     Screen(
         top=status_bar(primary_widgets),
-        left=left_bar(left_widgets),
+#        left=left_bar(left_widgets),
     )
 ]
 

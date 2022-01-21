@@ -10,9 +10,9 @@ from .theme import colors
 
 
 layout_conf = {
-    'border_focus': colors['focus'][0],
-    'border_width': 3,
-    'margin': 8,
+    "border_focus": "4eba5e",
+    "border_width": 3,
+    "margin": 2,
     "border_normal": "1c1c1c",
 }
 
@@ -23,7 +23,7 @@ layouts = [
     layout.Bsp(**layout_conf),
     layout.Matrix(columns=2, **layout_conf),
     layout.RatioTile(**layout_conf),
-    # layout.Columns(),
+    # layou.Columns(),
     # layout.Tile(),
     # layout.TreeTab(),
     # layout.VerticalTile(),
@@ -33,12 +33,12 @@ layouts = [
 floating_layout = layout.Floating(
     float_rules=[
         *layout.Floating.default_float_rules,
-        Match(wm_class='confirmreset'),
-        Match(wm_class='makebranch'),
-        Match(wm_class='maketag'),
-        Match(wm_class='ssh-askpass'),
-        Match(title='branchdialog'),
-        Match(title='pinentry'),
+        Match(wm_class="confirmreset"),
+        Match(wm_class="makebranch"),
+        Match(wm_class="maketag"),
+        Match(wm_class="ssh-askpass"),
+        Match(title="branchdialog"),
+        Match(title="pinentry"),
     ],
-    border_focus=colors["color4"][0]
+    border_focus=colors["color4"][0],
 )
